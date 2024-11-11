@@ -1,6 +1,5 @@
 import styles from '../styles/About.module.css'
 import Image from 'next/image'
-import { div } from 'framer-motion/client'
 
 export default function About() {
   return (
