@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import styles from '../styles/navbar.module.css'
+import styles from '../styles/Navbar.module.css'
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
