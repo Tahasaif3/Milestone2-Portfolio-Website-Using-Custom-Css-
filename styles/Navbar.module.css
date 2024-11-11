@@ -1,0 +1,49 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
+  
+  .scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navLinks {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navLinks li {
+    margin-left: 1.5rem;
+  }
+  
+  .navLinks a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navLinks a:hover {
+    color: #3498db;
+  }
+  
+  @media (max-width: 768px) {
+    .navLinks {
+      display: none;
+    }
+  }
